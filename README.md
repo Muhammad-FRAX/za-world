@@ -99,6 +99,8 @@ Build locally with `dotnet build` / `dotnet publish` and keep outputs on your ma
 
 This tool is intended for **your own PC** and **consenting use**. It blocks input and may store **photos** locally. Review **Windows privacy**, **camera**, and **data-retention** policies before deploying. **Ctrl+Alt+Del** may still reach the secure screen for recovery if you misconfigure the unlock hotkey.
 
-## License
+## Created by:
+  Mohamed Ali (Frax)
 
-Add a `LICENSE` file if you want to specify terms for GitHub.
+
+if you have any suggestions for improvements or features contact `https://github.com/Muhammad-FRAX`
