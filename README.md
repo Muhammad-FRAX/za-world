@@ -85,6 +85,16 @@ Core library has **no** NuGet packages beyond the .NET runtime.
 dotnet test
 ```
 
+## What not to commit
+
+GitHub rejects pushes over **100 MB per file** and warns over **50 MB**. Do **not** commit:
+
+- `bin/`, `obj/`, `publish/`, `publish-out/`, or self-contained **`Za-World.exe`** builds
+- **`OpenCvSharpExtern.dll`** and other native/runtime payloads (they are restored by NuGet / `dotnet publish`)
+- Archives of publish output (`*.rar`, `*.zip`, …)
+
+Build locally with `dotnet build` / `dotnet publish` and keep outputs on your machine or release them via **Releases**, not inside the git tree.
+
 ## Security & privacy
 
 This tool is intended for **your own PC** and **consenting use**. It blocks input and may store **photos** locally. Review **Windows privacy**, **camera**, and **data-retention** policies before deploying. **Ctrl+Alt+Del** may still reach the secure screen for recovery if you misconfigure the unlock hotkey.
