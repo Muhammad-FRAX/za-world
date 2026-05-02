@@ -1,0 +1,7 @@
+#!/bin/sh
+# Drop Cursor agent trailers so they never land in history.
+msg_file="$1"
+[ -f "$msg_file" ] || exit 0
+tmp="${msg_file}.za-world-strip"
+grep -v '^Co-authored-by: Cursor ' "$msg_file" > "$tmp" && mv "$tmp" "$msg_file"
+exit 0
