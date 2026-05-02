@@ -1,5 +1,18 @@
 # Za-World
 
+<p align="center">
+  <a href="https://dotnet.microsoft.com/languages/csharp">C#</a> ·
+  <a href="https://dotnet.microsoft.com/download/dotnet/8.0">.NET 8</a> ·
+  <a href="https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/">WPF</a> ·
+  <a href="https://github.com/shimat/opencvsharp">OpenCvSharp4</a> ·
+  <a href="https://sixlabors.com/products/imagesharp/">ImageSharp</a> ·
+  <a href="https://xunit.net/">xUnit</a>
+</p>
+
+<p align="center">
+  <img src="src/assets/theworld-logo.ico" alt="Za-World logo" width="120" height="120" />
+</p>
+
 Windows 11 desktop utility that **locks keyboard and mouse input** (with movement/hover still allowed, clicks blocked), **captures webcam snapshots** when someone moves the mouse or presses keys while locked, and unlocks with a **configurable hotkey**.
 
 ## Repository layout
@@ -87,12 +100,6 @@ dotnet test
 
 ## What not to commit
 
-GitHub rejects pushes over **100 MB per file** and warns over **50 MB**. Do **not** commit:
-
-- `bin/`, `obj/`, `publish/`, `publish-out/`, or self-contained **`Za-World.exe`** builds
-- **`OpenCvSharpExtern.dll`** and other native/runtime payloads (they are restored by NuGet / `dotnet publish`)
-- Archives of publish output (`*.rar`, `*.zip`, …)
-
 Build locally with `dotnet build` / `dotnet publish` and keep outputs on your machine or release them via **Releases**, not inside the git tree.
 
 ## Security & privacy
@@ -100,7 +107,7 @@ Build locally with `dotnet build` / `dotnet publish` and keep outputs on your ma
 This tool is intended for **your own PC** and **consenting use**. It blocks input and may store **photos** locally. Review **Windows privacy**, **camera**, and **data-retention** policies before deploying. **Ctrl+Alt+Del** may still reach the secure screen for recovery if you misconfigure the unlock hotkey.
 
 ## Created by:
-  Mohamed Ali (Frax)
+  **Mohamed Ali (Frax)**
 
 
 if you have any suggestions for improvements or features contact `https://github.com/Muhammad-FRAX`
