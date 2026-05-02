@@ -1,12 +1,12 @@
 # Za-World
 
 <p align="center">
-  <a href="https://dotnet.microsoft.com/languages/csharp">C#</a> ·
-  <a href="https://dotnet.microsoft.com/download/dotnet/8.0">.NET 8</a> ·
-  <a href="https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/">WPF</a> ·
-  <a href="https://github.com/shimat/opencvsharp">OpenCvSharp4</a> ·
-  <a href="https://sixlabors.com/products/imagesharp/">ImageSharp</a> ·
-  <a href="https://xunit.net/">xUnit</a>
+  <a href="https://dotnet.microsoft.com/languages/csharp"><img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" /></a>
+  <a href="https://dotnet.microsoft.com/download/dotnet/8.0"><img src="https://img.shields.io/badge/.NET%208-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET 8" /></a>
+  <a href="https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/"><img src="https://img.shields.io/badge/WPF-5C2D91?style=for-the-badge&logo=windows&logoColor=white" alt="WPF" /></a>
+  <a href="https://github.com/shimat/opencvsharp"><img src="https://img.shields.io/badge/OpenCvSharp-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCvSharp" /></a>
+  <a href="https://sixlabors.com/products/imagesharp/"><img src="https://img.shields.io/badge/ImageSharp-673AB7?style=for-the-badge" alt="ImageSharp" /></a>
+  <a href="https://xunit.net/"><img src="https://img.shields.io/badge/xUnit-0D5CAB?style=for-the-badge&logo=xunit&logoColor=white" alt="xUnit" /></a>
 </p>
 
 <p align="center">
